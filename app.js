@@ -7,7 +7,6 @@ module.exports = app => {
   const config = app.config.passportYun9;
   // must set passReqToCallback to true
   config.passReqToCallback = true;
-  console.log(config)
   assert(config.key, '[egg-passport-Yun9] config.passportYun9.key required');
   assert(config.secret, '[egg-passport-Yun9] config.passportYun9.secret required');
 

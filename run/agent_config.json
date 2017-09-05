@@ -20,8 +20,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "H:\\egg-example\\node_modules\\_egg-watcher@2.1.3@egg-watcher\\lib\\event-sources\\default",
-        "development": "H:\\egg-example\\node_modules\\_egg-watcher@2.1.3@egg-watcher\\lib\\event-sources\\development"
+        "default": "H:\\egg-passport-oauth2\\node_modules\\egg-watcher\\lib\\event-sources\\default",
+        "development": "H:\\egg-passport-oauth2\\node_modules\\egg-watcher\\lib\\event-sources\\development"
       }
     },
     "multipart": {
@@ -98,7 +98,7 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "H:\\egg-example\\app\\public",
+      "dir": "H:\\egg-passport-oauth2\\app\\public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
@@ -113,7 +113,7 @@
       "csrf": false
     },
     "view": {
-      "root": "H:\\egg-example\\app\\view",
+      "root": "H:\\egg-passport-oauth2\\app\\view",
       "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
@@ -182,9 +182,9 @@
       "author": "",
       "license": "MIT"
     },
-    "baseDir": "H:\\egg-example",
+    "baseDir": "H:\\egg-passport-oauth2",
     "HOME": "C:\\Users\\12056",
-    "rundir": "H:\\egg-example\\run",
+    "rundir": "H:\\egg-passport-oauth2\\run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -214,7 +214,7 @@
       }
     },
     "logger": {
-      "dir": "H:\\egg-example\\logs\\egg-example",
+      "dir": "H:\\egg-passport-oauth2\\logs\\egg-example",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -291,8 +291,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "H:\\egg-example\\node_modules\\_egg@1.7.0@egg\\config\\plugin.js",
-      "path": "H:\\egg-example\\node_modules\\_egg-onerror@1.5.0@egg-onerror",
+      "from": "H:\\egg-passport-oauth2\\node_modules\\egg\\config\\plugin.js",
+      "path": "H:\\egg-passport-oauth2\\node_modules\\egg-onerror",
       "version": "1.5.0"
     },
     "session": {
@@ -302,8 +302,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "H:\\egg-example\\node_modules\\_egg@1.7.0@egg\\config\\plugin.js",
-      "path": "H:\\egg-example\\node_modules\\_egg-session@2.1.1@egg-session",
+      "from": "H:\\egg-passport-oauth2\\node_modules\\egg\\config\\plugin.js",
+      "path": "H:\\egg-passport-oauth2\\node_modules\\egg-session",
       "version": "2.1.1"
     },
     "i18n": {
@@ -313,8 +313,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "H:\\egg-example\\node_modules\\_egg@1.7.0@egg\\config\\plugin.js",
-      "path": "H:\\egg-example\\node_modules\\_egg-i18n@1.1.1@egg-i18n",
+      "from": "H:\\egg-passport-oauth2\\node_modules\\egg\\config\\plugin.js",
+      "path": "H:\\egg-passport-oauth2\\node_modules\\egg-i18n",
       "version": "1.1.1"
     },
     "watcher": {
@@ -324,8 +324,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "H:\\egg-example\\node_modules\\_egg@1.7.0@egg\\config\\plugin.js",
-      "path": "H:\\egg-example\\node_modules\\_egg-watcher@2.1.3@egg-watcher",
+      "from": "H:\\egg-passport-oauth2\\node_modules\\egg\\config\\plugin.js",
+      "path": "H:\\egg-passport-oauth2\\node_modules\\egg-watcher",
       "version": "2.1.3"
     },
     "multipart": {
@@ -335,8 +335,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "H:\\egg-example\\node_modules\\_egg@1.7.0@egg\\config\\plugin.js",
-      "path": "H:\\egg-example\\node_modules\\_egg-multipart@1.5.0@egg-multipart",
+      "from": "H:\\egg-passport-oauth2\\node_modules\\egg\\config\\plugin.js",
+      "path": "H:\\egg-passport-oauth2\\node_modules\\egg-multipart",
       "version": "1.5.0"
     },
     "security": {
@@ -348,8 +348,8 @@
         "session"
       ],
       "env": [],
-      "from": "H:\\egg-example\\node_modules\\_egg@1.7.0@egg\\config\\plugin.js",
-      "path": "H:\\egg-example\\node_modules\\_egg-security@1.12.1@egg-security",
+      "from": "H:\\egg-passport-oauth2\\node_modules\\egg\\config\\plugin.js",
+      "path": "H:\\egg-passport-oauth2\\node_modules\\egg-security",
       "version": "1.12.1"
     },
     "development": {
@@ -363,8 +363,8 @@
       "env": [
         "local"
       ],
-      "from": "H:\\egg-example\\node_modules\\_egg@1.7.0@egg\\config\\plugin.js",
-      "path": "H:\\egg-example\\node_modules\\_egg-development@1.3.1@egg-development",
+      "from": "H:\\egg-passport-oauth2\\node_modules\\egg\\config\\plugin.js",
+      "path": "H:\\egg-passport-oauth2\\node_modules\\egg-development",
       "version": "1.3.1"
     },
     "schedule": {
@@ -374,8 +374,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "H:\\egg-example\\node_modules\\_egg@1.7.0@egg\\config\\plugin.js",
-      "path": "H:\\egg-example\\node_modules\\_egg-schedule@2.4.1@egg-schedule",
+      "from": "H:\\egg-passport-oauth2\\node_modules\\egg\\config\\plugin.js",
+      "path": "H:\\egg-passport-oauth2\\node_modules\\egg-schedule",
       "version": "2.4.1"
     },
     "logrotator": {
@@ -387,8 +387,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "H:\\egg-example\\node_modules\\_egg@1.7.0@egg\\config\\plugin.js",
-      "path": "H:\\egg-example\\node_modules\\_egg-logrotator@2.2.3@egg-logrotator",
+      "from": "H:\\egg-passport-oauth2\\node_modules\\egg\\config\\plugin.js",
+      "path": "H:\\egg-passport-oauth2\\node_modules\\egg-logrotator",
       "version": "2.2.3"
     },
     "static": {
@@ -398,8 +398,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "H:\\egg-example\\node_modules\\_egg@1.7.0@egg\\config\\plugin.js",
-      "path": "H:\\egg-example\\node_modules\\_egg-static@1.4.1@egg-static",
+      "from": "H:\\egg-passport-oauth2\\node_modules\\egg\\config\\plugin.js",
+      "path": "H:\\egg-passport-oauth2\\node_modules\\egg-static",
       "version": "1.4.1"
     },
     "jsonp": {
@@ -411,8 +411,8 @@
         "security"
       ],
       "env": [],
-      "from": "H:\\egg-example\\node_modules\\_egg@1.7.0@egg\\config\\plugin.js",
-      "path": "H:\\egg-example\\node_modules\\_egg-jsonp@1.1.2@egg-jsonp",
+      "from": "H:\\egg-passport-oauth2\\node_modules\\egg\\config\\plugin.js",
+      "path": "H:\\egg-passport-oauth2\\node_modules\\egg-jsonp",
       "version": "1.1.2"
     },
     "view": {
@@ -422,8 +422,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "H:\\egg-example\\node_modules\\_egg@1.7.0@egg\\config\\plugin.js",
-      "path": "H:\\egg-example\\node_modules\\_egg-view@1.1.2@egg-view",
+      "from": "H:\\egg-passport-oauth2\\node_modules\\egg\\config\\plugin.js",
+      "path": "H:\\egg-passport-oauth2\\node_modules\\egg-view",
       "version": "1.1.2"
     },
     "passport": {
@@ -435,8 +435,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "H:\\egg-example\\config\\plugin.js",
-      "path": "H:\\egg-example\\node_modules\\_egg-passport@1.0.0@egg-passport",
+      "from": "H:\\egg-passport-oauth2\\config\\plugin.js",
+      "path": "H:\\egg-passport-oauth2\\node_modules\\egg-passport",
       "version": "1.0.0"
     }
   }
