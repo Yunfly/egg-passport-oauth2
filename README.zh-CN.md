@@ -13,7 +13,7 @@
 ```bash
 $ npm i
 $ npm run dev
-$ open http://localhost:9083/news
+$ open http://localhost:9083
 ```
 
 ### 部署
