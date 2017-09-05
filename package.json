@@ -1,0 +1,56 @@
+{
+  "name": "egg-example",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "dependencies": {
+    "egg": "^1.7.0",
+    "egg-passport": "^1.0.0",
+    "egg-scripts": "^1.0.0",
+    "egg-static": "^1.4.1",
+    "passport-oauth2": "^1.4.0",
+    "vue": "^2.4.2",
+    "vue-template-compiler": "^2.4.2"
+  },
+  "devDependencies": {
+    "autod": "^2.9.0",
+    "autod-egg": "^1.0.0",
+    "egg-bin": "^4.1.0",
+    "egg-ci": "^1.8.0",
+    "egg-mock": "^3.9.0",
+    "eslint": "^4.3.0",
+    "eslint-config-egg": "^5.0.0",
+    "webpack": "^3.5.4",
+    "webpack-merge": "^4.1.0",
+    "webstorm-disable-index": "^1.2.0"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "eggPlugin": {
+    "name": "passportYun9",
+    "dependencies": [
+      "passport"
+    ]
+  },
+  "scripts": {
+    "start": "egg-scripts start --daemon",
+    "stop": "egg-scripts stop",
+    "dev": "egg-bin dev  --port 9083",
+    "test": "npm run lint -- --fix && npm run test-local",
+    "test-local": "egg-bin test",
+    "cov": "egg-bin cov",
+    "lint": "eslint .",
+    "ci": "npm run lint && npm run cov",
+    "autod": "autod"
+  },
+  "ci": {
+    "version": "6, 8"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "MIT"
+}
