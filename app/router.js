@@ -9,5 +9,5 @@ module.exports = app => {
     successRedirect: '/home',
     failureRedirect: '/login'
   }),  'home.index');
-  app.get('/home', app.passport.authenticate('Yun9'), 'home.index');
+  app.get('/home', 'home.index');
 };
